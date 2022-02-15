@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    padding: 20px;
+}
+.menu {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.notes {
+    padding: 0;
+    margin: 0;
+}
+
+.task {
+    padding: 10px;
+    text-align: center;
+    border: 1px dashed gray;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.create{
+    display: flex;
+}
+.btn{
+    margin-left: 10px;
+}
+
+.task:hover, .task.active {
+    transition: all .4s ease-in-out;
+    background: #b63030;
+
+}
+.btnAddNewTask {
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.textInInput {
+    width: 100%;
+    box-sizing: border-box;
+}
+#text button {
+    width: 100%;
+    height: 30px;
+}
+label{
+    display: flex;
+    justify-content: center;
+}
